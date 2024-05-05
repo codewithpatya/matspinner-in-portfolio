@@ -1,0 +1,47 @@
+<div class="feed">
+    <h1 class="text-center pt-5">Feed<span class="aboutme">back</span></h1>
+    <div class="container my-5">
+        <div class="row r1 d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <form>
+                    <form #Fform="ngForm" (submit)="handleSave(Fform)">
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                            <input type="text" placeholder="Your Name" class=" mb-3" name="name" [(ngModel)]="Feedbacks.name">
+                            </div>
+                            <div class="col-md-6">
+                            <input type="text" placeholder="Your Email" class=" mb-3" name="email" [(ngModel)]="Feedbacks.email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12 ">
+                                <input type="date" placeholder="Date" class=" mb-3" name="date" [(ngModel)]="Feedbacks.date">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <textarea  cols="90" rows="8" placeholder="Your Message...." name="message" [(ngModel)]="Feedbacks.message"></textarea>
+                        </div>
+
+                        
+        
+                        <button class="my-2 p-2" type="submit">Send Message</button>
+                    </form>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="f d-flex  align-items-center flex-column">
+                    <img src="./assets/feed-removebg-preview.png" alt="xyz">
+                <div class="feed d-flex justify-content-center align-items-center flex-column" *ngIf="review">
+                <h2 class="text-center">Thank You For Feedback!!!</h2>
+                <a href="#test" class="d-flex justify-content-center align-items-center mb-3">View Feedback <mat-icon>east</mat-icon></a>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="loaders" *ngIf="loader">
+        <mat-spinner></mat-spinner>
+    </div>
+</div>
+

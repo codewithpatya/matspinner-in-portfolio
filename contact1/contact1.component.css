@@ -1,0 +1,124 @@
+
+ /* css for mobile and tablets */
+ @media screen and (max-width:768px) {
+    h1{
+      font-size: 3rem !important;
+      padding-top: 3rem !important;
+      padding-bottom: 1rem !important;
+      padding-right:1rem !important ;
+      padding-left: 1rem !important;
+    }
+    input{
+        border-radius: 20px !important;
+        border: none !important;
+    }
+    input:hover{
+        border: solid 1px gold !important;
+    }
+    textarea{
+        width: 40vh;
+        height: 20vh ;
+        border-radius: 20px !important;
+        border: none !important;
+    }
+    textarea:hover{
+        border: solid 1px gold !important;
+    }
+    button{
+        height: 50px;
+        width: 200px !important;
+    }
+    .icons h3{
+        font-size: 25px !important;
+        padding: 0 !important;
+        padding-left: 3rem !important;
+    }
+    .r1{
+        padding: 0 !important;
+    }
+    .loaders{
+        height: auto !important;
+    }
+    .contactss{
+        height: auto !important;
+    }
+    
+ }  
+h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.aboutme{
+    color: orange;
+}
+input{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+input:hover{
+    border: solid 1px gold;
+}
+textarea{
+    border-radius: 20px;
+    border: none;
+}
+textarea:hover{
+    border: solid 1px gold;
+}
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: gold 1px solid;
+    background-color:transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: gold;
+    opacity: 2px;
+    font-weight: bolder;
+
+}
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
+.icons h3{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color: white;
+}
+.demo{
+    color: gold;
+    height: 50%;
+    width: 30%;
+    font-size: 50px !important;
+}
+.ci{
+    font-size: larger;
+    font-family: 'Oswald';
+    color: white;
+}
+.icons{
+    padding-left: 50px;
+}
+.loaders{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.317);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactss{
+    position: relative;
+    height: 100%;
+}

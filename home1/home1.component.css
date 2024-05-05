@@ -1,0 +1,100 @@
+@media screen and (max-width:768px) {
+    .home{
+        padding: 2rem !important;
+    }
+    .myimage{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-right: 0 !important;
+    }
+    .aboutmebut{
+        margin-top: 1rem !important;
+    }
+    .name{
+        font-size: 1.2rem !important;
+        line-height: 1rem !important;
+    }
+    .myname{
+        padding-top: 1rem !important;
+    }
+    .home img{
+        height: 250px !important;
+        width: 200px !important;
+    }
+    .aboutmebut button{
+        height: 30px !important;
+        width: 100px !important;
+        background-color: transparent !important;
+        border: 1px solid white !important;
+        border-radius: 10px !important;
+    
+    }
+    .aboutmebut button:hover{
+        border-color: gold  !important;
+        color: gold  !important;
+    }
+    .aboutmebut{
+        margin-top: 20px  !important;
+    }
+    .card{
+        height: auto !important;
+        width: 300px !important;
+        border: none;
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+}
+
+/* without media query css */
+.home img{
+    height: 450px;
+    width: 400px;
+    
+}
+.myimage{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.myname{
+    padding-top: 200px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.aboutmebut button{
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.aboutmebut button:hover{
+    border-color: gold;
+    color: gold;
+}
+.aboutmebut{
+    margin-top: 40px;
+}
+button a{
+    text-decoration: none;
+}
+.card{
+    height: 300px;
+    width: 600px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.304);
+}
+.m{
+    font-size: 35px;
+    height: 35px;
+    width: 60px;
+}
